@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+  <ImageView
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:background="@drawable/farmer_flash"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <ProgressBar
+        android:layout_gravity="center_vertical"
+        android:id="@+id/progressBar"
+        android:progressBackgroundTint="@color/colorPrimary"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/white"
+        android:indeterminateTintMode="src_atop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#e97c00"
+        android:text="Checking\nConnection..."/>
+    </LinearLayout>
+
+
+</LinearLayout>
